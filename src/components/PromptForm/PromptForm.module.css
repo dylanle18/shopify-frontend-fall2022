@@ -1,0 +1,43 @@
+.form {
+  width: clamp(300px, 600px, 80%);
+  margin: 2rem 0;
+}
+
+.form_header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input_area {
+  width: 100%;
+  background-color: var(--primary-dark);
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.submit_btn {
+  display: block;
+  background-color: var(--accent);
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  background-color: var(--accent-light);
+}
+
+.submit_btn:disabled {
+  background-color: var(--primary-light);
+}
