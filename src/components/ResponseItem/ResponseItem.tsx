@@ -25,12 +25,12 @@ export default function ResponseItem({
       <table className={styles.table}>
         <tbody>
           <tr>
-            <th>Prompt:</th>
-            <td>{prompt}</td>
+            <th className={styles.left_col}>Prompt:</th>
+            <td className={styles.right_col}>{prompt}</td>
           </tr>
           <tr>
-            <th>Response:</th>
-            <td>{response}</td>
+            <th className={styles.left_col}>Response:</th>
+            <td className={styles.right_col}>{response}</td>
           </tr>
         </tbody>
       </table>

@@ -23,3 +23,7 @@
   border: solid transparent 1rem;
   word-wrap: break-word;
 }
+
+.left_col {
+  width: 10rem;
+}
