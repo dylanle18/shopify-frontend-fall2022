@@ -21,7 +21,7 @@ function App() {
 
   function deleteResponse(id: string) {
     setResponses((prevResponses) => {
-      const newResponses = prevResponses.filter(r => r.id != id)
+      const newResponses = prevResponses.filter(r => r.id !== id)
       localStorage.setItem("openai-responses", JSON.stringify(newResponses))
       return newResponses;
     });
